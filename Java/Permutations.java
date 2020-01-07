@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Permutations {
 	// Given a collection of distinct numbers, return all possible permutations.
 	
