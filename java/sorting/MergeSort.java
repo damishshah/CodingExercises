@@ -10,7 +10,7 @@ public class MergeSort{
     }
      
     public static void mergesort(int[] array) {
-        if (array.length < 2){return;}
+        if (array.length < 2) return;
         int mid = array.length / 2;
         int [] left_arr = Arrays.copyOfRange(array, 0, mid);
         int [] right_arr = Arrays.copyOfRange(array, mid, array.length);
@@ -42,4 +42,8 @@ public class MergeSort{
             array[i++] = right_arr[right++];
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d0093dd... Add mergesort implementation
